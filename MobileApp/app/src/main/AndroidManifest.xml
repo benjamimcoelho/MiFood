@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobile_app_sensores">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Required if your app targets Android 10 (API level 29) or higher -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mifood_laucher"
+        android:label="MiFood"
+        android:roundIcon="@mipmap/mifood_laucher_round"
+        android:supportsRtl="true"
+        android:theme="@style/HiddenTitleTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EmentaVeganActivity" />
+        <activity android:name=".EmentaActivity" />
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <receiver android:name=".GeofenceBroadcastReceiver" />
+    </application>
+
+</manifest>

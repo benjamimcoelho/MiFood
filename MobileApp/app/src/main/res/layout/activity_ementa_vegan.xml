@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmentaVeganActivity"
+    android:background="@drawable/fundo2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ementa_vegan_back_btn"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Voltar"/>
+
+            <RelativeLayout
+                android:id="@+id/ementa_box"
+                android:layout_below="@+id/ementa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Ementa Vegan"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                    <TableLayout
+                        android:id="@+id/tabela_categorias_ementa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff">
+
+                        <TableRow
+                            android:id="@+id/sopa_box"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginVertical="1dp"
+                            android:background="#f9861a"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/sopa_content_id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="Sopa" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/parto_box"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginVertical="1dp"
+                            android:background="#f9861a"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="Prato" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/acc1_box"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginVertical="1dp"
+                            android:background="#f9861a"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/acc1_content_id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="Acompanhamento 1" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/acc2_box"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginVertical="1dp"
+                            android:background="#f9861a"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="Acompanhamento 2" />
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tabela_valores_ementa"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff">
+
+                        <TableRow
+                            android:id="@+id/sopa_content_box"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginVertical="1dp"
+                            android:background="#a3a3a3"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/sopa_vegan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/paro_content_box"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginVertical="1dp"
+                            android:background="#a3a3a3"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/prato_vegan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/acc1_content_box"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginVertical="1dp"
+                            android:background="#a3a3a3"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/ac1_vegan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/acc2_content_box"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginVertical="1dp"
+                            android:background="#a3a3a3"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/ac2_vegan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="" />
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/nutrientes_box"
+                android:layout_below="@+id/ementa_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Nutrientes"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:scrollbars="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ementa_box"
+                        android:orientation="horizontal">
+
+                        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/tabela_categorias_nutrientes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff">
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#f9861a"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="Energia" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#f9861a"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="Lípidos" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#f9861a"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="Saturados" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#f9861a"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="Hidratos de Carbono" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#f9861a"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="Açúcares" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#f9861a"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="Fibras" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#f9861a"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="Proteína" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#f9861a"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="Sal" />
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/tabela_valores_nutrientes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#ffffff">
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#a3a3a3"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/energia_vegan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#a3a3a3"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/lipidos_vegan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#a3a3a3"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/saturados_vegan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#a3a3a3"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/hidratos_vegan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#a3a3a3"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/acucar_vegan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#a3a3a3"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/fibras_vegan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#a3a3a3"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/proteina_vegan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_marginVertical="1dp"
+                                android:background="#a3a3a3"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:id="@+id/sal_vegan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:text="" />
+                            </TableRow>
+
+                        </TableLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

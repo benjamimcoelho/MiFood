@@ -1,0 +1,62 @@
+Data_Vegan,Sopa_Vegan,Prato_Vegan,Acompanhamento_1_Vegan,Acompanhamento_2_Vegan,Energia_Vegan,Lípidos_Vegan,Lípidos_saturados_Vegan,Hidratos_carbono_Vegan,Açúcares_Vegan,Fibras_Vegan,Proteína_Vegan,Sal_Vegan
+2022-04-01,Sopa juliana,Croquete de soja,Arroz de brócolos,Salada juliana de alface e couve branca e couve roxa,526,14,2,64,17,12,31,3
+2022-04-02,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-03,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-04,Sopa de espinafres,Estufado mediterrânico de seitan,Arroz de cenoura,Salada de tomate com orégãos,705,21,3,94,16,12,30,4
+2022-04-05,Sopa de feijão-vermelho,Empadão de soja,NULL,Brócolos cozidos,937,32,7,136,20,16,24,4
+2022-04-06,Creme de cenoura,Dhal de lentilhas,Arroz ao alho,Arroz ao alho,667,22,3,98,17,11,18,3
+2022-04-07,Sopa de feijão branco com penca,Massa com tofu,NULL,Salada de tomate,801,23,6,115,19,14,31,3
+2022-04-08,Sopa de feijão verde,Seitan assado,Salada de batata quente,Salada de alface e cenoura e tomate,718,9,1,95,22,15,57,5
+2022-04-09,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-11,Creme de abobora com feijão vermelho,Esparguete bolognese de soja,NULL,Salada de alface e cenoura,625,21,9,81,26,14,26,4
+2022-04-12,Sopa camponesa,Tofu de tomatada,Batata assada,Repolho cozido com milho,629,19,3,88,20,13,24,3
+2022-04-13,Sopa de nabiças,Panados de seitan,Arroz de tomate,Salada de alface e cenoura e pimentos,940,25,4,128,17,16,47,4
+2022-04-14,Sopa brócolos,Caril de legumes,Arroz de ervilhas,NULL,711,25,6,102,17,15,19,4
+2022-04-15,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-16,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-17,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-18,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-19,Sopa de alho francês,Lasanha de soja,NULL,Salada de cebola e pepino e tomate,828,29,5,119,25,12,22,5
+2022-04-20,Sopa de abobora,Seitan à Provençal,Arroz ao alho,Grelos salteados,666,17,2,90,21,14,36,4
+2022-04-21,Creme de legumes,Legumes salteados com tofu,Salada de batata e brócolos e azeitonas,Salada de tomate,717,24,5,104,21,13,20,4
+2022-04-22,Sopa de feijão vermelho,Croquete de soja,Arroz de cenoura,Salada de alface e couve roxa,709,32,6,76,19,12,26,2
+2022-04-23,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-24,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-25,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-26,Creme de ervilhas,Esparguete bolognese de soja,NULL,Cenoura cozida,803,18,3,123,18,21,32,3
+2022-04-27,Sopa de alho francês,Tofu assado com pimentos,Batatinha no forno com azeite e alho,Espinafres salteados,528,13,2,75,20,13,22,4
+2022-04-28,Sopa de grão de bico com nabiças,Curgete recheada com seitan,Arroz branco,Cenoura e milho salteados,736,24,7,98,19,12,29,4
+2022-04-29,Creme de cenoura,Pizza de legumes com enchido de soja,NULL,Salada de alface e tomate,907,20,3,90,17,11,16,4
+2022-04-30,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-01,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-02,Sopa de legumes,Massa com tofu,NULL,Salada de tomate e azeitonas,842,23,5,124,19,16,31,2
+2022-05-03,Creme de ervilhas,Curgete recheada com seitan,Batatinha no forno com azeite e alho,Grelos salteados,685,24,7,85,21,14,31,4
+2022-05-04,Sopa de abóbora,Bifinhos de seitan com molho de cogumelos,Massa cozida,Salada de alface e cenoura,700,23,4,81,19,12,40,5
+2022-05-05,Creme de cenoura,Croquete de soja,Arroz a Primavera(com cenoura e ervilhas),Salada de tomate,880,32,7,105,17,12,43,4
+2022-05-06,Sopa juliana,Gratinado de tofu com legumes,Massa cozida,Salada de alface e milho e tomate,707,21,8,97,26,15,31,5
+2022-05-07,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-08,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-09,Creme de legumes,Seitan a Provençal,Arroz branco,Couve flor cozida,687,20,3,88,20,13,35,4
+2022-05-10,Sopa de grão de bico,Tofu com broa,Batatinha no forno com azeite e alho,Grelos salteados,900,39,6,108,20,16,27,5
+2022-05-11,Sopa de bróculos,Esparguete bolognese de soja,NULL,Salada de alface e cenoura,819,20,3,123,19,22,31,3
+2022-05-12,Creme de feijão vermelho com abóbora,Estufado mediterrânico de seitan,Puré de batata,Feijão verde cozido,801,23,6,115,19,14,31,3
+2022-05-13,Sopa de espinafres,Gratinado de legumes com cogumelos,Arroz de ervilhas,Salada de alface e cenoura e tomate,664,19,7,99,24,14,23,4
+2022-05-14,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-15,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-16,Creme de ervilhas,Tofu salteado com  bróculos,Salada de batata quente,Salada de tomate,711,25,4,95,15,12,23,3
+2022-05-17,Sopa de alho-francês,Bolonhesa de seitan,Massa cozida,NULL,711,25,6,102,17,15,19,4
+2022-05-18,Sopa de abóbora,Empadão de soja,NULL,Salada de tomate e oregãos,713,25,7,97,22,16,24,4
+2022-05-19,Sopa de feijão vermelho com feijão verde,Tofu a Continental,Arroz de legumes,Cenoura e milho salteados,591,23,3,74,18,11,20,3
+2022-05-20,Sopa de couve branca e cenoura,Panados de seitan,Batata frita,Salada de alface e cenoura e milho,989,19,11,106,18,14,25,3
+2022-05-21,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-22,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-23,Creme de abóbora,Seitan assado,Batatinha no forno com azeite e alho,Salada de alface e cenoura,741,10,1,99,23,16,57,4
+2022-05-24,Sopa juliana,Croquete de soja,Arroz de bróculos,Cenoura e coue flor cozida,828,29,5,119,25,12,22,5
+2022-05-25,Sopa de grão de bico,Caldeirada de tofu,NULL,NULL,615,16,2,91,20,13,22,3
+2022-05-26,Sopa de feijão-verde,Empadão de arroz integral com lentilhas,NULL,Salada de alface,717,24,5,104,21,13,20,4
+2022-05-27,Creme de legumes,Massa com tofu,NULL,Salada de alface e tomate,808,22,5,118,21,17,32,3
+2022-05-28,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-29,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-30,Sopa de espinafres,Bifinhos de tofu com molho de cogumelos,Batata frita,Salada de alface e cenoura e tomate,641,19,3,89,23,15,25,4
+2022-05-31,Sopa de feijão vermelho,Seitan com cebolada,Arroz de cenoura,Salada de tomate e orégãos,705,20,3,92,20,13,34,4

@@ -1,0 +1,62 @@
+Data,Sopa,Prato,Acompanhamento_1,Acompanhamento_2,Energia,Lípidos,Lípidos_saturados,Hidratos_carbono,Açúcares,Fibras,Proteína,Sal,Carne
+2022-04-01,Sopa de feijão vermelho com feijão verde,Pescada à Provençal,Batata cozida,Couve flor cozida,666,17,3,86,19,13,41,3,0
+2022-04-02,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-03,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-04,Creme de abobora,Cação assado,Batata cozida,Feijão verde cozido,643,17,3,82,19,12,38,3,0
+2022-04-05,Sopa de couve flor,Espetadas de peru grelhadas,Massa salteada,Couve branca salteada,650,18,3,84,18,13,37,3,1
+2022-04-06,Sopa de grão de bico,Peixe à Gomes de Sá,NULL,Salada de alface e cenoura,623,20,5,75,18,12,33,3,0
+2022-04-07,Sopa de nabos,Lombo de porco assado,Batata assada,Couve à Mineira,705,18,3,100,19,14,34,3,1
+2022-04-08,Creme de tomate,Bife de frango grelhado,Arroz de legumes,Salada de alface e couve roxa,658,13,2,94,16,14,39,3,1
+2022-04-09,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-11,Caldo verde,Frango estufado com cenoura e ervilhas,Arroz branco,NULL,740,26,6,80,15,11,46,3,1
+2022-04-12,Sopa de legumes,Massa com salmão,NULL,Salada juliana de alface e cenoura e couve roxa,610,22,4,64,18,11,39,6,0
+2022-04-13,Sopa de penca,Nacos de porco estufados,Puré de batata,Espinafres salteados,735,29,6,81,18,12,37,3,1
+2022-04-14,Sopa de grão de bico com espinafres,Redfish no forno com cebolada,Batatinha no forno com azeite e alho,Salada de alface e milho e tomate,767,28,7,89,17,12,37,4,0
+2022-04-15,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-16,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-17,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-18,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-19,Sopa de couve-flor,Bife de peru grelhado,Arroz de brócolos,Chucrute,633,17,2,90,17,12,29,4,1
+2022-04-20,Creme de ervilhas,Medalhões de pescada com molho de tomate e legumes,Batata a murro,Couve de bruxelas salteada,640,20,5,76,18,12,36,3,0
+2022-04-21,Sopa de grão de bico,Carne de vaca estufada com cenoura e ervilhas e feijão verde,Massa cozida,NULL,687,16,2,88,19,13,45,3,1
+2022-04-22,Sopa de nabos,Panado de porco frito,Arroz de pimentos,Salada de tomate com orégãos,749,21,4,95,16,12,42,2,1
+2022-04-23,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-24,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-25,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-04-26,Sopa de abobóra,Cação estufado,Batata cozida,Couve-de-bruxelas cozida,538,15,2,72,15,11,27,4,0
+2022-04-27,Caldo verde,Arroz de frango,NULL,Salada de alface e cenoura,567,7,1,82,18,13,41,4,1
+2022-04-28,Creme de legumes,Massa com peru e legumes,NULL,Salada de alface e pepino e pimentos,591,23,5,52,16,10,43,2,1
+2022-04-29,Sopa de feijão verde,Salada de atum e batata e feijão frade,NULL,Grelos salteados,794,25,4,108,16,10,32,4,0
+2022-04-30,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-01,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-02,Sopa de curgete,Cação assado,Arroz de tomate,Jardineira de legumes,637,20,5,74,18,12,39,3,0
+2022-05-03,Sopa de penca,Massa com peru e legumes,NULL,Salada de alface e pepino e pimento,587,14,2,77,18,13,37,3,1
+2022-05-04,Sopa de curgete,Nacos de porco estufados,Puré de batata,Couve-de-bruxelas cozida,713,21,5,87,17,12,40,3,1
+2022-05-05,Sopa de grão de bico com nabiças,Massa com salmão,NULL,Salada de alface e couve roxa,587,14,2,77,18,13,37,3,0
+2022-05-06,Creme de tomate,Panado de frango,Arroz ao alho,Salada de alface e cenoura e couve branca,758,39,13,67,17,8,33,2,1
+2022-05-07,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-08,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-09,Caldo verde,Tortilha de peixe,NULL,Bróculos cozidos,689,30,7,61,16,12,42,5,0
+2022-05-10,Sopa de nabos,Arroz de frango,NULL,Alho francês e cenoura e couve salteada,432,12,3,47,15,9,34,2,1
+2022-05-11,Sopa de feijão-branco com couve banca,Peixe a brás,NULL,Sala de alface e pepino e tomate,795,29,10,82,17,12,49,4,0
+2022-05-12,Sopa camponesa,Peito de peru assado,Arroz de cenoura,Salada de tomate com orégãos,796,28,8,98,17,17,36,3,1
+2022-05-13,Sopa de penca,Panado de porco,Massa cozida,Salada de alface e cenoura,790,30,4,92,18,13,35,3,1
+2022-05-14,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-15,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-16, Sopa de couve flor,Lombo de porco assado,Arroz de pimentos,Esparregado,821,22,4,94,21,16,57,4,1
+2022-05-17,Sopa de nabiças,Cação assado,Salada de batata e bróculos e azeitonas,Couve de bruxelas salteada,637,16,3,85,21,14,36,3,0
+2022-05-18,Creme de cenoura,Espetadas de peru grelhadas,Arroz de cenoura,Salada juliana de alface e couve branca e couve roxa,706,25,7,71,16,11,48,2,1
+2022-05-19,Sopa de legumes,Peixe a Gomes de Sá,NULL,Cenoura baby cozida,630,18,4,83,15,12,33,3,0
+2022-05-20,Sopa de grão de bico com espinafres,Hambúrguer de vaca grelhado,Arroz branco,Salada de alface e tomate,765,26,6,85,14,11,45,3,1
+2022-05-21,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-22,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-23,Sopa de curgete,Arroz a Valenciana,NULL,Salada de alface e pepino e pimentos,624,15,4,83,19,12,38,3,0
+2022-05-24,Sopa de nabos,Strogonoff de peru,Massa cozida,Feijão verde salteado,659,13,2,100,15,10,34,3,1
+2022-05-25,Creme de tomate,Raia dourada,Arroz de tomate,Espinafres salteados,707,26,10,76,14,10,40,3,0
+2022-05-26,Sopa de feijão branco com penca,Rojões de porco estufados,Massa salteada,Bróculos salteados,618,18,4,74,17,11,39,3,0
+2022-05-27,Sopa de bróculos,Bife de frango grelhado,Arroz de ervilhas,Salada de alface e pimento e tomate e azeitona,574,14,2,79,16,12,32,4,1
+2022-05-28,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-29,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+2022-05-30,Sopa de couve flor,Quadradinhos de atum,Arroz de pimentos,Couve branca salteada,663,14,2,106,17,11,27,3,0
+2022-05-31,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
